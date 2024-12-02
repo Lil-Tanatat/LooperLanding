@@ -1,6 +1,7 @@
 body {
   background-color: #ffc927;
   font-family: "Arial", sans-serif;
+  overflow-x: hidden;
 }
 
 #features i {
@@ -41,3 +42,18 @@ footer p {
 .social-media a img:hover {
   transform: scale(1.1);
 }
+
+#footer {
+  background-color: #000;
+  color: #fff;
+  height: 100px;
+  padding: 20px 0;
+}
+
+/* .how-to {
+  background-image: url("/images/howto/black.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  align-items: center;
+} */
