@@ -1,0 +1,16 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+#features i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+.bg-primary {
+  background-color: #ffc927 !important;
+}
