@@ -21,7 +21,14 @@
             alt="Logo"
             width="auto"
             height="120"
-            class="d-inline-block align-text-top"
+            class="d-none d-md-inline-block align-text-top"
+          />
+          <img
+            src="/images/navbar/logo.png"
+            alt="Logo"
+            width="auto"
+            height="100"
+            class="d-inline-block d-md-none align-text-top"
           />
         </a>
         <!-- Image button -->
@@ -33,8 +40,19 @@
             alt="Button Icon"
             width="auto"
             height="60"
-            class="d-inline-block align-text-top nav-button"
+            class="d-none d-md-inline-block align-text-top nav-button"
           />
+          <div class="social-media-nav d-flex flex-row d-md-none gap-3">
+            <a href="https://x.com/LooperLAD?s=09">
+              <img src="/images/social/X.png" alt="X Social Media Icon" />
+            </a>
+            <a href="https://t.me/looperlad">
+              <img src="/images/social/telegram.png" alt="Telegram Icon" />
+            </a>
+            <a href="https://www.instagram.com/looperlad">
+              <img src="/images/social/instagram.png" alt="Instagram Icon" />
+            </a>
+          </div>
         </a>
       </div>
     </nav>
@@ -42,14 +60,14 @@
     <!-- Hero Section -->
     <div class="bg-primary text-white text-center py-5 position-relative">
       <!-- Social Media -->
-      <div class="social-media d-none d-md-flex">
-        <a href="">
+      <div class="social-media d-none d-md-flex flex-col">
+        <a href="https://x.com/LooperLAD?s=09">
           <img src="/images/social/X.png" alt="X Social Media Icon" />
         </a>
-        <a href="">
+        <a href="https://t.me/looperlad">
           <img src="/images/social/telegram.png" alt="Telegram Icon" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/looperlad">
           <img src="/images/social/instagram.png" alt="Instagram Icon" />
         </a>
       </div>
@@ -60,11 +78,26 @@
         height="auto"
         class="d-inline-block align-text-top"
       />
+      <div class="bg-dark">
+        <a
+          href="https://pump.fun/coin/6DRfPqFLzte7HxapGmjG8hKXiV91ihLMVDfc2yYApump"
+        >
+          <img
+            src="/images/navbar/pump-button.png"
+            alt="Button Icon"
+            width="auto"
+            height="80"
+            style="margin-top: -10px; padding-bottom: 10px"
+            class="d-block d-md-none mx-auto nav-button"
+          />
+        </a>
+      </div>
       <img
         src="/images/hero/tab.png"
         alt="Button Icon"
         width="100%"
         height="auto"
+        style="margin-top: -3px"
         class="d-inline-block align-text-top"
       />
     </div>
@@ -95,6 +128,11 @@
               class="position-absolute d-none d-md-block z-3"
               style="left: 13%; top: 11%; width: 45%"
             />
+            <img
+              src="/images/information/redline.png"
+              class="position-absolute d-block d-md-none z-1"
+              style="left: 27%; top: 15%; width: 90%"
+            />
           </div>
           <div class="col-md-6 g-0 col-sm-12">
             <img
@@ -102,7 +140,16 @@
               class="pt-3 d-none d-md-block"
               style="width: 80%"
             />
-            <img src="/images/information/paper.png" style="width: 100%" />
+            <img
+              src="/images/information/paper.png"
+              class="d-none d-md-block"
+              style="width: 100%"
+            />
+            <img
+              src="/images/information/paper-mobile.png"
+              class="d-block d-md-none"
+              style="width: 90%; float: left"
+            />
           </div>
           <div class="col-md-12 g-0 how-to" style="width: 100%; left: 0">
             <img
@@ -112,7 +159,7 @@
             />
             <img
               src="/images/howto/howto-mobile.png"
-              class="d-block d-md-none"
+              class="position-relative d-block d-md-none z-3"
               style="margin-top: -50%; width: 100%; height: auto"
             />
           </div>
@@ -120,20 +167,45 @@
       </div>
     </section>
 
-    <footer class="footer bg-dark text-white pt-5 pb-2">
+    <footer
+      class="footer bg-dark text-white py-5 pt-md-5 pb-md-2 position-relative"
+    >
       <div class="container text-center">
-        <img src="/images/navbar/logo.png" height="200px" />
+        <img
+          src="/images/navbar/logo.png"
+          class="d-none d-md-block mx-auto"
+          height="200px"
+        />
+        <img
+          src="/images/navbar/logo.png"
+          class="d-block d-md-none mx-auto"
+          height="100px"
+        />
       </div>
       <div
-        class="footer-social d-flex flex-column flex-md-row justify-content-end mx-5 mb-3 gap-3"
+        class="footer-social d-none d-md-flex flex-row justify-content-end mx-5 mb-3 gap-3"
       >
-        <a href="">
+        <a href="https://x.com/LooperLAD?s=09">
           <img src="/images/social/x-white.png" alt="X Social Media Icon" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/looperlad">
           <img src="/images/social/telegram-white.png" alt="Telegram Icon" />
         </a>
-        <a href="">
+        <a href="https://t.me/looperlad">
+          <img src="/images/social/instragram-white.png" alt="Instagram Icon" />
+        </a>
+      </div>
+      <div
+        class="position-absolute footer-social d-flex d-md-none flex-column gap-3"
+        style="right: 7%; top: 13%"
+      >
+        <a href="https://x.com/LooperLAD?s=09">
+          <img src="/images/social/x-white.png" alt="X Social Media Icon" />
+        </a>
+        <a href="https://www.instagram.com/looperlad">
+          <img src="/images/social/telegram-white.png" alt="Telegram Icon" />
+        </a>
+        <a href="https://t.me/looperlad">
           <img src="/images/social/instragram-white.png" alt="Instagram Icon" />
         </a>
       </div>
