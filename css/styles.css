@@ -1,7 +1,8 @@
 body {
   background-color: #ffc927;
   font-family: "Arial", sans-serif;
-  overflow-x: hidden;
+  /* width: 100%; */
+  /* overflow-x: hidden; */
 }
 
 #features i {

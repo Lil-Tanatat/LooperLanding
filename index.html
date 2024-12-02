@@ -42,7 +42,7 @@
     <!-- Hero Section -->
     <div class="bg-primary text-white text-center py-5 position-relative">
       <!-- Social Media -->
-      <div class="social-media">
+      <div class="social-media d-none d-md-flex">
         <a href="">
           <img src="/images/social/X.png" alt="X Social Media Icon" />
         </a>
@@ -72,25 +72,48 @@
     <section id="information" class="py-0">
       <div class="m-0">
         <!-- information Section -->
-        <div class="row text-center position-relative" style="width: 100vw">
-          <div class="col-md-6 g-0 col-sm-12">
+        <div class="row text-center position-relative">
+          <div class="col-md-6 g-4 g-md-0 col-sm-12">
+            <img
+              src="/images/information/about.png"
+              class="d-block d-md-none"
+              style="width: 25%; margin-left: 5%"
+            />
+            <img
+              src="/images/information/looperlad.png"
+              class="pt-3 d-block d-md-none"
+              style="width: 60%; margin-left: 5%; margin-bottom: 10px"
+            />
+            <img
+              src="/images/information/about.png"
+              class="d-none d-md-block"
+              style="width: 25%; float: right"
+            />
             <img src="/images/information/computer.png" style="width: 100%" />
             <img
               src="/images/information/redline.png"
               class="position-absolute d-none d-md-block z-3"
-              style="left: 13%; top: 7%; width: 45%"
+              style="left: 13%; top: 11%; width: 45%"
             />
           </div>
           <div class="col-md-6 g-0 col-sm-12">
+            <img
+              src="/images/information/looperlad.png"
+              class="pt-3 d-none d-md-block"
+              style="width: 80%"
+            />
             <img src="/images/information/paper.png" style="width: 100%" />
           </div>
-          <div
-            class="col-md-12 g-0 how-to d-none d-md-block"
-            style="margin-top: -20%; width: 100%; left: 0"
-          >
+          <div class="col-md-12 g-0 how-to" style="width: 100%; left: 0">
             <img
               src="/images/howto/black-with-adam.png"
-              style="width: 100%; height: auto"
+              class="d-none d-md-block"
+              style="margin-top: -25%; width: 100%; height: auto"
+            />
+            <img
+              src="/images/howto/howto-mobile.png"
+              class="d-block d-md-none"
+              style="margin-top: -50%; width: 100%; height: auto"
             />
           </div>
         </div>
@@ -101,14 +124,16 @@
       <div class="container text-center">
         <img src="/images/navbar/logo.png" height="200px" />
       </div>
-      <div class="footer-social d-flex justify-content-end mx-5 mb-3">
-        <a href="" class="mx-2">
+      <div
+        class="footer-social d-flex flex-column flex-md-row justify-content-end mx-5 mb-3 gap-3"
+      >
+        <a href="">
           <img src="/images/social/x-white.png" alt="X Social Media Icon" />
         </a>
-        <a href="" class="mx-2">
+        <a href="">
           <img src="/images/social/telegram-white.png" alt="Telegram Icon" />
         </a>
-        <a href="" class="mx-2">
+        <a href="">
           <img src="/images/social/instragram-white.png" alt="Instagram Icon" />
         </a>
       </div>
