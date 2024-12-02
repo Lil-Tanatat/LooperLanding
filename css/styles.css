@@ -2,7 +2,7 @@ body {
   background-color: #ffc927;
   font-family: "Arial", sans-serif;
   /* width: 100%; */
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 #features i {
